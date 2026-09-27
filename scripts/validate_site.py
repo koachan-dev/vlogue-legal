@@ -10,18 +10,22 @@ PAGES = [
     ROOT / "index.html",
     ROOT / "privacy/index.html",
     ROOT / "support/index.html",
+    ROOT / "terms/index.html",
+    ROOT / "commerce/index.html",
     ROOT / "404.html",
 ]
 REQUIRED_POLICY_TOKENS = {
+    "commerce/index.html": ["正式氏名・住所・電話番号", "購入の意思決定に先立ち", "koachan.dev@gmail.com", "24時間", "reportaproblem.apple.com", "iOS 17.0", "legal name"],
+    "terms/index.html": ["3回", "three per calendar week", "24時間", "24 hours", "買い切り", "lifetime", "koakutsu"],
     # プライバシーポリシーは App Store Connect の「プライバシーポリシー URL」に登録する。
     # アプリが実際に使う SDK と権限の説明が消えると、審査での説明と食い違う。
     "privacy/index.html": [
         "プライバシーポリシー",
         "Privacy Policy",
-        "2026年9月14日",
-        "September 14, 2026",
-        "Vlogue 開発者",
-        "Vlogue Developer",
+        "2026年9月27日",
+        "September 27, 2026",
+        "個人開発者 koakutsu",
+        "Independent developer koakutsu",
         "koachan.dev@gmail.com",
         "AdMob",
         "MapKit",
@@ -46,8 +50,8 @@ REQUIRED_POLICY_TOKENS = {
         "three times",
         "モザイク",
         "mosaic",
-        "Vlogue 開発者",
-        "Vlogue Developer",
+        "個人開発者 koakutsu",
+        "Independent developer koakutsu",
     ],
 }
 FORBIDDEN = [
