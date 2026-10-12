@@ -16,7 +16,7 @@ PAGES = [
 ]
 REQUIRED_POLICY_TOKENS = {
     "commerce/index.html": ["正式氏名・住所・電話番号", "購入の意思決定に先立ち", "koachan.dev@gmail.com", "24時間", "reportaproblem.apple.com", "iOS 17.0", "legal name"],
-    "terms/index.html": ["3回", "three per calendar week", "24時間", "24 hours", "買い切り", "lifetime", "koakutsu"],
+    "terms/index.html": ["書き出し回数に制限はありません", "Exports are unlimited", "3日間", "three-day", "24時間", "24 hours", "買い切り", "lifetime", "koakutsu"],
     # プライバシーポリシーは App Store Connect の「プライバシーポリシー URL」に登録する。
     # アプリが実際に使う SDK と権限の説明が消えると、審査での説明と食い違う。
     "privacy/index.html": [
@@ -46,8 +46,10 @@ REQUIRED_POLICY_TOKENS = {
         "購入を復元",
         "Restore Purchases",
         "Vlogue Pro",
-        "3回",
-        "three times",
+        "回数無制限",
+        "without limits",
+        "3日間",
+        "3-day",
         "モザイク",
         "mosaic",
         "個人開発者 koakutsu",
