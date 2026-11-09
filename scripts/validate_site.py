@@ -28,7 +28,9 @@ REQUIRED_POLICY_TOKENS = {
         "Independent developer koakutsu",
         "koachan.dev@gmail.com",
         "AdMob",
-        "MapKit",
+        # 地図は端末内の線画で MapKit を使わない(2026-11-09)。座標を送るのは地名と天気だけ
+        "ジオコーディング",
+        "geocoding",
         "WeatherKit",
         "カメラ",
         "Camera",
